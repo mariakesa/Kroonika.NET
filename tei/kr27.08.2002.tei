@@ -1,0 +1,344 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Kroonika 27.08.2002 </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	 <resp>kirjutas programmi internetist tekstide automaatseks salvestamiseks ja teisendamiseks</resp>
+         <name>Katrin Tsepelina</name>
+         <resp>kogus internetist ja teisendas sgml-kujule</resp>
+         <name>Katrin Tsepelina</name>
+    	 <resp>eemaldas topelt artiklid, parandas olemite, m&auml;rkide, m&auml;rgenuse vigu, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite:   57812; s&otilde;nu:    5647</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>november 2004</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level='j'> Kroonika 27.08.2002 </title>
+         </bibl>
+           <p>http://www.kroonika.ee/</p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ajakirja number</p>
+	</samplingdecl>
+	<editorialdecl>
+		<correction>
+                   <p>unicode-i olemid kujul #number on teisendatud sgml-olemite
+ks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		</correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>&scaron;rifti muutused on sgml-m&auml;rgendatud, kasutades atribuuti rend, nt p rend=..., hi rend=...; rend = bold, italic, bold_italic</p>
+                   <p> &scaron;rift v&otilde;ib muutuda ka s&otilde;na sees, seega on hi kleepumine s&otilde;na k&uuml;lge t&auml;henduslik</p>
+                   <p>div0 t&auml;histab tervet ajakirja numbrit</p>
+                   <p>div1 t&auml;histab rubriiki</p>
+                   <p>div2 t&auml;histab artiklit</p>
+                   <p>div3 t&auml;histab artikli osa (algab vahepealkirjaga)</p>
+                </interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                   <p>&uuml;hekordne jutum&auml;rk on ' </p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud; nii pealkiri kui autor v&otilde;ib artiklil ka puududa (kusjuures vahel ta tegelikult peaks olema, aga t&ouml;&ouml;tlemisel on tehtud viga) </p>
+                   <p>Autori märgenduseks on bibl author; autorit iseloomustav tekst on samas sees (nt. toimetaja) </p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=8></tagusage>
+         <tagusage gi=bibl occurs=8></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=div1 occurs=4></tagusage>
+         <tagusage gi=div2 occurs=9></tagusage>
+         <tagusage gi=div3 occurs=10></tagusage>
+         <tagusage gi=head occurs=24></tagusage>
+         <tagusage gi=hi occurs=1></tagusage>
+         <tagusage gi=p occurs=210></tagusage>
+         <tagusage gi=s occurs=571></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text> <body> <div0 type='ajakirja_number'> <head> Kroonika 27.08.2002 </head> <div1 type='rubriik'> <head> Pikad Lood </head> <div2 type='artikkel'> <head> Mehed on m&auml;ngukannid </head> 
+<p> <bibl> <author> <s> Stella K. Wadowsky </s> </author> </bibl> </p>
+<p rend='bold'> <s> &ldquo; Naised , rahunege , ma ei jahi teie mehi ! </s> <s> V&otilde;tan vaid noori , s&uuml;&uuml;tuid ja vallalisi ! &rdquo; lubab skandaalne &auml;ridaam ANU SAAGIM ( 40 ) . </s> </p>
+<p> <s> Saagim . </s> <s> Seksikiisu , kapriisitar ja rikutuse s&uuml;mbol . </s> <s> K&otilde;igi abielunaiste hirm ? </s> <s> Meeste&otilde;gija ja magamistoas piitsahoope jagav amatsoon ? </s> <s> V&otilde;i lihtsalt lobamokk , kes teeb suuga suure seksi ? </s> </p>
+<p rend='bold'> <s> Mida arvad &uuml;tlusest , et t&auml;nap&auml;eval ei eksisteeri enam armastust esimesest silmapilgust , kuna esimesel silmapilgul pole n&auml;ha , kui paks on mehe rahakott ? </s> </p>
+<p> <s> Arvan , et see on seotud eaga . </s> <s> Mida noorem sa oled , seda sinisilmsem , naiivsem ja avatum oled uutele suhetele . </s> <s> Mida vanemaks saad , seda rohkem j&auml;lgid mehe k&auml;itumist , maneere , hoiakut , ajutegevust ja miks ka mitte - riietumist . </s> <s> Mis muidugi ei t&auml;henda , et tal peaks kuldne Rolex k&auml;el v&auml;lkuma . </s> <s> Nii saad t&auml;pselt aru , mis kastis see mees on . </s> <s> Aga kui mingi ennastt&auml;is tolgus tuleb , &uuml;ksk&otilde;ik kui ilus ta ka poleks , mul ei hakka need vaimustuse kellad helisema . </s> </p>
+<p rend='bold'> <s> Milline on k&otilde;ige uskumatum koht , kus sa hommikul &auml;rganud oled ? </s> </p>
+<p> <s> N&auml;iteks ilma p&otilde;randak&uuml;tteta r&otilde;skel vannitoap&otilde;randal alasti &auml;rgata on &uuml;sna &scaron;okeeriv . </s> <s> Kahjuks on seda juhtunud enam kui kord . </s> <s> Loomulikult enne Ristomattiga ( Anu soomlasest abikaasa Ristomatti Ratia - toim ) kohtumist . </s> </p>
+<p rend='bold'> <s> Oled sa kunagi mehi alandanud ? </s> <s> Kui , siis mil moel ? </s> </p>
+<p> <s> Tunnistan ausalt , et olen mehe k&auml;eraudus radiaatori k&uuml;lge siplema j&auml;tnud kuni tema l&auml;hedaste kojutulekuni . </s> <s> Olen kokteiliklaasi sisu mehele n&auml;kku visanud hulga tunnistajate juuresolekul v&otilde;i keset pidulikku &otilde;htus&ouml;&ouml;ki restoranis p&uuml;sti t&otilde;usnud ja s&otilde;nagi lausumata minema marssinud . </s> <s> Kuid milline naine seda k&otilde;ike teinud poleks ! </s> </p>
+<p rend='bold'> <s> Kui sind ajakirja kunstfotodel sado-maso-kost&uuml;&uuml;mis vaadata , j&auml;&auml;b mulje , et magamistoas ei oota mehed sinu puhul midagi v&auml;hemat kui piitsaga vehkivat amatsooni . </s> </p>
+<p> <s> J&auml;lestan v&auml;givalda k&otilde;igis vormides , ka naljaviluks . </s> <s> K&uuml;llap on pildil n&auml;htu minu v&auml;ljaelamata kujutelm . </s> </p>
+<p rend='bold'> <s> Kas sind v&otilde;iks nimetada abielunaiste hirmuks ? </s> </p>
+<p> <s> Mul on hea vana aja kasvatus - ma ei jahi s&otilde;branna v&otilde;i teise naise meest . </s> <s> Arvan , et nii m&otilde;nigi mees , kes loeb seda , saab aru , miks ma pole tema t&auml;helepanuavaldustele vastanud . </s> <s> Kui mees on abielus ja tal on lapsed , siis minu jaoks kukuvad punktid p&otilde;hja . </s> <s> Eriti kui ta p&uuml;&uuml;ab oma abielu varjata v&otilde;i r&auml;&auml;kida oma saamatust abikaasast v&otilde;i lahutusest , mis parasjagu k&auml;sil . </s> </p>
+<p> <s> Naised , rahunege , ma ei jahi teie mehi ! </s> <s> V&otilde;tan vaid noori , s&uuml;&uuml;tuid ja vallalisi ! </s> <s> ( Anu pahvatab naerma . ) </s> </p>
+<p rend='bold'> <s> Kas oled kunagi m&otilde;nelt noormehelt s&uuml;&uuml;tuse v&otilde;tnud ? </s> </p>
+<p> <s> Kahjuks mitte . </s> </p>
+<p rend='bold'> <s> On sinu seksikiisu imago sulle ka kahju toonud ? </s> </p>
+<p> <s> See on m&otilde;ned mehed minu suhtes labaseks muutnud . </s> <s> M&otilde;ningatel meestel on tekkinud arvamus , et kui ma esinen ajakirjas poolpaljalt ja &uuml;tlen naljaviluks : &ldquo; Vajan rohkem seksi ! &rdquo; , siis v&otilde;ivad nad mulle t&auml;naval v&otilde;i liftis siivutuid ettepanekuid teha . </s> </p>
+<p rend='bold'> <s> R&auml;&auml;gi l&auml;hemalt m&otilde;nest intsidendist . </s> </p>
+<p> <s> Mulle on liftis suisa k&auml;ttpidi kallale tuldud ja vastikuid ettepanekuid tehtud . </s> <s> Mu naljana &ouml;eldud laused ei t&auml;henda , et oleksin seksin&auml;ljas v&otilde;i et mind r&uuml;nnata tohiks . </s> </p>
+<p rend='bold'> <s> Hirmsaim kapriis , millega oled mehi kiusanud ? </s> </p>
+<p> <s> Neid on nii palju ! </s> <s> Igale mehele oma kapriis . </s> <s> M&auml;letan , et kui me Ristomattiga k&auml;ima hakkasime , siis mina elasin Rootsis ja tema Soomes . </s> <s> Ta k&auml;is mul Stockholmis k&uuml;las . </s> <s> Olin temasse meeletult armunud ja juhtus sageli , et kui ta hakkas Soome tagasi s&otilde;itma , korraldasin stseeni . </s> <s> Lahistasin lennujaamas nutta ja teatasin , et ma ei suuda temast lahkuda . </s> <s> V&auml;hemalt k&uuml;mmekond korda ostsime mulle lennupileti , s&otilde;itsin temaga m&otilde;neks p&auml;evaks Helsingisse kaasa ja enne ma ei j&auml;tnud , kui ta paari p&auml;eva m&ouml;&ouml;dudes minuga Stockholmi naasis . </s> <s> Ta oli tol ajal &uuml;sna h&otilde;ivatud &auml;rimees ja pidi k&otilde;vasti t&ouml;&ouml;d tegema , aga mugandus minu tujude j&auml;rgi . </s> <s> Tagantj&auml;rele m&otilde;tlen : ime , et tal juhe kokku ei jooksnud - saad naisega korraks kokku ja ta ei j&auml;&auml; sust enam sammugi maha . </s> </p>
+<p rend='bold'> <s> Kas Ristomatti on sind kunagi v&otilde;&otilde;ra mehega teie abieluvoodist tabanud ? </s> </p>
+<p> <s> Ei . </s> <s> Ta on nii delikaatne mees ja mina samuti , et me ei l&auml;he kunagi oma kolme erinevasse koju ilma aegsasti ette teatamata . </s> <s> See on s&otilde;natu kokkulepe . </s> </p>
+<p rend='bold'> <s> Kas oled Ristomattit petnud ? </s> <s> Ausalt , palun . </s> </p>
+<p> <s> Minu petmisfilosoofia j&auml;rgi ei ole . </s> </p>
+<p rend='bold'> <s> Kui palju on olnud neid kordi , kus Ristomatti on teatanud , et saabub koju , ja sina palud seepeale m&otilde;nel mehel &ldquo; kodinad kokku &rdquo; korjata , sest abikaasa on tulekul ? </s> </p>
+<p> <s> Minu juures ei ela peale Ristomatti kedagi . </s> </p>
+<p rend='bold'> <s> Sinu kokkupuuted meeste kadedusega ? </s> </p>
+<p> <s> &Ouml;eldakse k&uuml;ll , et naised on ussid , kes selja taga susserdavad . </s> <s> Aga mehed v&otilde;ivad palju hullemad olla . </s> <s> Osa mehi tunnetab juba kaugelt , et naine suhtub temasse &uuml;ksk&otilde;iksusega , ja neile j&auml;&auml;b sellest kibe maitse suhu . </s> <s> Hiljem annavad nad naisele selja taga mingi &otilde;ela ja vastiku hinnangu . </s> </p>
+<p rend='bold'> <s> Kuidas sa mehi v&otilde;rgutad ? </s> <s> Parim nipp ? </s> </p>
+<p> <s> Hellitan ja nahutan neid kui oma lemmikm&auml;ngukanne . </s> </p>
+<p rend='bold'> <s> Kuidas mehi &scaron;okeerida ? </s> </p>
+<p> <s> Kasutades meestega v&otilde;rdseid m&auml;ngureegleid . </s> </p>
+<p rend='bold'> <s> Milliseid abivahendeid voodielu kirgastamiseks kasutad ? </s> </p>
+<p> <s> &Otilde;li , j&auml;&auml; , &scaron;okolaad ja huumor . </s> </p>
+<p rend='bold'> <s> Sinu feti&scaron;id ? </s> </p>
+<p> <s> Seda v&otilde;ib v&auml;lja lugeda juuresolevatelt piltidelt . </s> </p>
+<p rend='bold'> <s> Kindlasti oled kohanud mehi , kes v&auml;idavad , et on sinuga tormilisi &ouml;id veetnud , millest aga sina midagi ei tea . </s> </p>
+<p> <s> Kuuldavasti olen poole linnaga maganud . </s> <s> See ei &scaron;okeeri mind absoluutselt . </s> <s> V&otilde;ib k&otilde;lada banaalselt , aga see j&auml;tab mind t&auml;iesti &uuml;ksk&otilde;ikseks . </s> <s> Andku tuld ! </s> </p>
+<p rend='bold'> <s> Sinu kokkupuuted armukadedate meestega ? </s> </p>
+<p> <s> Mul on olnud aastaid tagasi paar suhet h&auml;sti armukadedate partneritega . </s> <s> N&auml;iteks nii , et oleme kuskil &uuml;ritusel ja mina ilma mingi tagam&otilde;tteta olen t&auml;helepanu p&ouml;&ouml;ranud v&otilde;i suhelnud m&otilde;ne meessoost isikuga , hiljem kodus olen aga selle eest k&otilde;vasti nahutada ja , ausalt &ouml;eldes , isegi kerepeale saanud ja mind on tuppa lukustatud kui pahateolt tabatud last . </s> </p>
+<p rend='bold'> <s> On sul kunagi tulnud m&otilde;ne mehe eest v&otilde;idelda ja mil moel ? </s> </p>
+<p> <s> Keskkoolis oli mul &uuml;ks iidol . </s> <s> Minu relvaks oli kavalus . </s> <s> N&auml;gin , et ta tuli treppidest &uuml;les , ja sadasin trepist alla tema jalge ette . </s> <s> Ai , kui valus , aga viljad olid magusad ! </s> </p>
+<p rend='bold'> <s> Milline mees on voodis hea ? </s> </p>
+<p> <s> Sile . </s> </p>
+<p rend='bold'> <s> V&otilde;tad sa pakkumise vastu , kui sinu juurde tuleb lottis tagumiku , halva hinge&otilde;hu ja sepiku jumega 70aastane vanapapi , kes pakub &ouml;&ouml; eest miljon krooni ? </s> </p>
+<p> <s> Ma j&auml;taksin v&auml;lja kolm esimest momenti , aga muus osas on see juba juhtunud ! </s> </p>
+ </div2> <div2 type='artikkel'> <head> P&otilde;ldroos ruulib t&auml;iega </head> 
+<p> <bibl> <author> <s> Sven Haljand </s> </author> </bibl> </p>
+<p rend='bold'> <s> Rullnokk Aiku roll toob n&auml;itleja DAN P&Otilde;LDROOSile tuhandeid austajaid , kuid paneb tema abikaasa Ketlini h&auml;benema . </s> </p>
+<p> <s> &ldquo; Ma ei saa &ouml;&ouml;klubis kahte sammu astuda ilma , et keegi mulle kaela ei langeks , viina pakuks ega kiidaks , kui normaalselt rullnokad ruulivad , &rdquo; tunnistab Dan P&otilde;ldroos ( 32 ) . </s> </p>
+<p> <s> Rullnokse Aiksi ja Petsi v&auml;lja m&otilde;eldes arvasid Dan ja telesarja &ldquo; Wremja &rdquo; &uuml;lej&auml;&auml;nud tiim , et nad saavad ise hea k&otilde;hut&auml;ie naerda . </s> <s> Asi aga v&auml;ljus kontrolli alt . </s> <s> Eestis pole &uuml;htegi linna , kus ei j&otilde;lguks ringi noorukeid , kellel on nina teibiga kukla taha veetud . </s> <s> Dan on saanud koolidirektoritelt nii vihaseid kui ka ahastavaid telefonik&otilde;nesid , milles palutakse teemat muuta v&otilde;i siis see jama silmapilk l&otilde;petada . </s> </p>
+<p> <s> &ldquo; &Otilde;petaja k&uuml;sib , kus asub Aafrika . - Normaalne ! </s> <s> Kus see siis ikkagi asub ? - Sae pekki ! &rdquo; kirjeldab Dan klassiruumides toimuvat . </s> </p>
+<p> <s> &ldquo; Oleme soovitanud r&auml;&auml;kida lastevanematega , et nad ei n&auml;itaks oma v&otilde;sukestele &ldquo; Wremjat &rdquo; . </s> <s> Teistmoodi ei oska pahuraid pedagooge kuidagi aidata . </s> <s> Me teeme oma t&ouml;&ouml;d nii h&auml;sti kui suudame , ja see meeldib publikule . &rdquo; </s> </p>
+ <div3 type='artikli_osa'> <head> Naine hoiab eemale </head> 
+<p> <s> Aiksi ja Petsi tohutu menu on toonud muutusi ka Dani eraellu . </s> <s> Ta p&uuml;&uuml;ab t&auml;navatel liikuda nii v&auml;he kui v&otilde;imalik , sest ehtsate rullnokkade n&uuml;rid naljad ja ettepanekud &otilde;lut panema minna m&otilde;juvad talle kurnavalt . </s> <s> Dani moekunstnikust abikaasa Ketlin Bachmann-P&otilde;ldroos aga eemalduvat mehest j&auml;rjekordse t&uuml;&uuml;tuse ilmudes sprinteri kiirusega saja meetri kaugusele . </s> </p>
+<p> <s> Ketlin ei pane mu tegelaskuju pahaks , kuid ta h&auml;beneb veidi . &rdquo; </s> </p>
+<p> <s> &ldquo; Ta &uuml;ldiselt v&auml;ldib seda teemat , meie esinemistel ei k&auml;i ja minuga koos pole &ldquo; Wremjat &rdquo; iial vaadanud . </s> <s> V&otilde;ib-olla salaja piilub telekat , &rdquo; r&auml;&auml;gib Dan . </s> </p>
+<p> <s> Sel ajal , kui Dan ja Ketlin kohtusid , tegi n&auml;itleja oma hiilgerolli joodik Haista G&auml;ngina . </s> <s> Saades teada , et tema vastne kallim ongi too kurikuulus lopsakate vuntside , higise maika ja v&auml;ljaveninud trussikutega ekraanikangelane , olevat &ldquo; v&auml;ike jama &rdquo; tekkinud . </s> </p>
+<p> <s> &ldquo; Ketlinist v&otilde;ib aru saada , kui ikka tuleb suurte vurrudega Boriss , patsutab koduselt tuharale ja k&uuml;sib : nu Zhanna , kogda opjat ? , siis ... </s> <s> V&otilde;ib-olla k&auml;iksin minagi naisest mitu meetrit eemal , kui ta strippar oleks , &rdquo; arutleb Dan . </s> </p>
+ </div3> <div3 type='artikli_osa'> <head> Passib klubides rullnokki </head> 
+<p> <s> Dan pole mees , kes armastab &ouml;&ouml;klubides aega surnuks l&uuml;&uuml;a , kuid Aiku roll sunnib teda sinna sageli mitmeks &ouml;&ouml;ks j&auml;rjest . </s> <s> &Ouml;&ouml;klubid on ammendamatud kaevud rullnokkade k&auml;itumise , sl&auml;ngi ja riietuse tabamiseks . </s> </p>
+<p> <s> &ldquo; Issanda loomaaed on suur . </s> <s> Tantsusaalides liigub kaader , kes v&auml;&auml;rib n&auml;gemist , &rdquo; m&auml;rgib Dan . </s> <s> &ldquo; Tavaliselt k&auml;ivad t&uuml;drukud k&auml;ekotiga WCs . </s> <s> &Uuml;hes klubis aga sisenes tualetti ridik&uuml;liga &auml;&auml;rmiselt morn kutt . </s> <s> Sealt v&auml;ljudes oli ta &auml;ravahetamiseni muutunud , suu k&otilde;rvuni ja silmad s&auml;rasid . </s> <s> K&uuml;llap vennike k&auml;is habet ajamas ja tundis r&otilde;&otilde;mu v&auml;rskest tundest . &rdquo; </s> </p>
+<p> <s> &Ouml;&ouml;elu peibutised on kaunid t&uuml;drukud ja alkohol . </s> <s> T&uuml;drukuid Dan ei vaata , sest tal on kodus kena naine olemas ja arvukatele napsupakkujatele &uuml;tleb ta tavaliselt &auml;ra . </s> <s> Ta ei pea karskust kui munk , kuid on endale selgeks teinud , mis on halb ja mis hea . </s> </p>
+<p> <s> Dan muigab , et &otilde;nneks on ta nii inetu , et t&uuml;drukud teda piirama ei kipu . </s> <s> Ka teda , tema &auml;mma ja &auml;ia aastaid ahistanud m&uuml;&uuml;janna Katre polevat endast viimasel ajal m&auml;rku andnud : &ldquo; Loodetavasti on neiu aru p&auml;he v&otilde;tnud . </s> <s> Ta t&uuml;&uuml;tas mind ja mu l&auml;hedasi kuus aastat . </s> <s> See oli v&auml;sitav . </s> <s> Ma loodan s&uuml;damest , et rohkem selliseid tegelasi v&auml;lja ei ilmu . &rdquo; </s> </p>
+ </div3> <div3 type='artikli_osa'> <head> Tahab teatrisse tagasi </head> 
+<p> <s> Aiku , Nisu Uno , Laari &auml;mm ja inspektor Kukeke on k&otilde;ik kerge kiiksuga tegelased . </s> <s> Danile on k&otilde;ige hingel&auml;hedasem Kukekese kuju . </s> </p>
+<p> <s> &ldquo; Kukeke on heatahtlik inimene , aga tema teine nimi on &ldquo; Armas s&otilde;ber , ma ei oska sind aidata &rdquo; . </s> <s> Ta lihtsalt on selline ja tundub , et enamik politseinikke ... </s> <s> Noh , Kukekese kuju pole lambist v&otilde;etud , &rdquo; lisab Dan . </s> </p>
+<p> <s> Kui Danilt k&uuml;sida , kas ta ei karda , et lihtsameelsete tegelaste kehastamine telesarjas v&otilde;ib tema edasisele karj&auml;&auml;rile p&auml;rssivalt m&otilde;juda , raputab ta &auml;gedalt pead . </s> <s> Dan usub , et inimesed , kes teda tunnevad , teavad , milleks ta on v&otilde;imeline . </s> <s> Pealegi ei luba ta endale &ldquo; Wremjas &rdquo; m&auml;ngides hinnaalandust . </s> <s> T&ouml;&ouml; on t&ouml;&ouml; , olgu siis rolliks Othello v&otilde;i Kukeke . </s> </p>
+<p> <s> Samas on ta endale selgeks teinud , et &uuml;kski show ei l&auml;he &uuml;les igavesti . </s> <s> Tuleb &otilde;igel ajal kodinad kokku korjata ja teisele rajale astuda . </s> <s> Aastaid teatrilavalt eemal olnud , kavatseb ta sinna l&auml;hiajal naasta . </s> </p>
+<p> <s> &ldquo; Draamateatrist tavaliselt &auml;ra ei tulda , sealt kas visatakse t&auml;navale v&otilde;i tuuakse jalad ees , &rdquo; &uuml;tleb Dan . </s> </p>
+<p> <s> Dan tundis , et vaimsus hakkab teatris &uuml;le pea kasvama , ja otsustas lahkuda . </s> <s> Ta ei kahetse oma otsust , kuid n&uuml;&uuml;d on tal tunne , et v&otilde;iks uuesti suurt kunsti n&auml;ppida . </s> </p>
+<p> <s> &ldquo; Mis asi on loomevalu ? </s> <s> Mida t&auml;hendab v&auml;ljend &ldquo; ma olen nii tundlik inimene kui viiulikeel &rdquo; ? </s> <s> Ma ei halvusta kedagi ega p&uuml;&uuml;a olla &uuml;leolev , aga suur osa teatriinimestest tunneb kogu aeg s&uuml;&uuml;me- ja loomepiinu . </s> <s> Minu deviis on , et tule tee asi &auml;ra ja &auml;ra virise ! &rdquo; &uuml;tleb Dan tagasihoidlikult . </s> </p>
+<p> <s> Just seda ta teha kavatsebki . </s> <s> Minna ja m&auml;ngida p&auml;rast paariaastast k&otilde;rvaleh&uuml;pet lustiga . </s> <s> Dan ei saa aru kunstij&uuml;ngritest , kes tegelevad n&auml;dalate kaupa teksti s&uuml;vaanal&uuml;&uuml;siga , nii et vaevakurd otsaees veab kulmud kokku . </s> <s> Tulemuseks on aga kolm kuubikut laval ja haigutav publik , kes hakkab n&auml;itleja monoloogi esimesel minutil kommi kr&otilde;bistama . </s> </p>
+<p> <s> &ldquo; Me v&otilde;ime k&auml;ia loengutel ja workshopidel ning targutada kirbu hingeelu &uuml;le , aga milleks ? </s> <s> Kordan veel : mees , tule tee asi &auml;ra , ja k&otilde;igil on hea . &rdquo; </s> </p>
+ </div3> <div3 type='artikli_osa'> <head> Ujus alasti </head> 
+<p> <s> Dan toob n&auml;iteks &ldquo; Wremja &rdquo; t&ouml;&ouml;r&uuml;tmi , kus asjad liiguvad s&otilde;rmenipsu peale nagu &otilde;litatult : tekst p&auml;he , paar proovi , ja salvestusele . </s> <s> Kui keegi hakkaks tegema juttu kolmandast duublist , l&otilde;hnaks asi rusika j&auml;rele , k&uuml;mnenda duubli korral oleks keret&auml;is soolas . </s> </p>
+<p> <s> &ldquo; Wremja &rdquo; tegelased v&otilde;tavad kohati v&auml;ga teravalt s&otilde;na &uuml;hiskonnas toimuva suhtes . </s> <s> Dan leiab , et eestlased oskavad enda &uuml;le naerda ning seni tal pilgatavatega , n&auml;iteks politseinikega probleeme pole tekkinud . </s> <s> Viimane kokkupuude korravalvuritega oli Paide tehis-j&auml;rve &auml;&auml;res . </s> </p>
+<p> <s> Kuuma oli kolmk&uuml;mmend kraadi ning Dan otsustas Smilersi poistega enne nende &otilde;htust esinemist ujumas k&auml;ia . </s> </p>
+<p> <s> &ldquo; Mul polnud ujukaid kaasas . </s> <s> H&uuml;ppesillal k&otilde;lkusid 16-17aastased rinnakad nooremandad . </s> <s> K&uuml;sisin neilt , kas v&otilde;in alasti ujuma minna , et ega nad ei saa elu esimest &scaron;okki midagi nii jubedat n&auml;hes , &rdquo; r&auml;&auml;gib Dan . </s> </p>
+<p> <s> &ldquo; Moorid itsitasid , et lase aga rahuga , nende jaoks on alasti mehe n&auml;gemine viie aasta tagune keiss . </s> <s> Sain paar minutit vees olla , kui m&ouml;&ouml;da randa tormas David Hasselhoffi sammul kohale vetelp&auml;&auml;stja , punane poi kaenlas . </s> <s> Tema arvates toimus t&otilde;sine korrarikkumine . </s> <s> Olukord lahenes siiski veretult . </s> <s> T&uuml;drukud rahustasid mehe maha ja aitasid mind sillale . &rdquo; </s> </p>
+ </div3> </div2> <div2 type='artikkel'> <head> Elus juhtub k&otilde;ike ... </head> 
+<p> <bibl> <author> <s> Meelis Kapstas </s> </author> </bibl> </p>
+<p rend='bold'> <s> &ldquo; Kui mees natuke &uuml;le aisa l&ouml;&ouml;b , ei juhtu sellest midagi , &rdquo; muheleb Eino Baskin abikaasa Veera k&auml;tt silitades . </s> <s> Ja ta m&otilde;tleb seda t&otilde;siselt . </s> </p>
+<p> <s> &ldquo; Roosa pikk-pikk maja , saad sa aru , v&auml;raval on silt &ldquo; Kuri koer&ldquo; , &rdquo; juhatab Eino Baskin ( 73 ) telefonis teed oma suvemajja . </s> </p>
+<p> <s> &ldquo; Metsik palavus ! </s> <s> Verer&otilde;hk , kurat , jampsib ! &rdquo; mahutab maestro v&auml;raval situatsiooni &uuml;hte lausesse . </s> <s> M&uuml;tsilodu silmil , sammub ta joonelt aeda oma lemmikpaika - p&auml;iksevarjuga kiiksohvale . </s> <s> &ldquo; Kuri koer &rdquo; Moonika lesib taltsa tallena peremehe k&otilde;rval p&otilde;&otilde;sa all . </s> <s> &ldquo; Sidetj ! &rdquo; kamandab Baskin vene keeles . </s> <s> Koer olla tal vene kooliga . </s> <s> &ldquo; Mu kadunud abikaasa Galina oli ju venelanna . &rdquo; </s> <s> Baskini uus noorik Veera ( 45 ) r&auml;&auml;gib aga eesti keelt , nii on peni n&uuml;&uuml;d kakskeelne . </s> <s> &ldquo; Aga kui on vaja komandat anda , siis ikka vene keeles ! </s> <s> Eesti keele peale hakkab koer m&uuml;rama . &rdquo; </s> </p>
+ <div3 type='artikli_osa'> <head> Viies koer , kolmas abikaasa </head> 
+<p> <s> Moonika on Baskini viies koer . </s> <s> &ldquo; K&otilde;ik on olnud hundid . </s> <s> Eelmine j&auml;i kaheselt auto alla , aga muidu elavad mu koerad kaua . </s> <s> Stressiseisundis on koera vaja silitada , siis l&auml;heb stress &uuml;le ! &rdquo; </s> </p>
+<p> <s> T&auml;nu kolmanda abikaasa Veera advokaadiametile p&uuml;sib Baskin n&uuml;&uuml;d kursis kohtulugudega . </s> </p>
+<p> <s> &ldquo; Maffia ja p&auml;tid - kohutav klientuur ! </s> <s> &Otilde;nneks advokaati ei puutu keegi ! </s> <s> P&auml;tid arvavad , et kui sa mu s&otilde;pra kaitsed ja ta v&auml;lja vead , siis j&auml;rgmine kord vead ehk ka mind ! &rdquo; </s> <s> Baskin leiab , et Eesti kohus on liiga leebe : &ldquo; Iga v&auml;hegi v&auml;hem ohtlik mees lastakse v&auml;lja , vanglad on ju pungil t&auml;is . </s> <s> Ei noh , Veerat on huvitav kuulata , kui on m&otilde;ni p&otilde;nevam lugu . &rdquo; </s> </p>
+<p> <s> Hea , kui abikaasad on erinevatelt elualadelt , leiab Baskin . </s> <s> &ldquo; Kui kodus oksendamiseni ainult teatrijuttu ajaks , kaotaks elu m&otilde;tte &auml;ra , saad sa aru ! &rdquo; </s> </p>
+<p> <s> Baskini teine naine , p&auml;rast abielu Ita Everiga , oli lennundusinsener Galina . </s> <s> &ldquo; V&auml;ga haige inimene ! </s> <s> Kaksk&uuml;mmend aastat pidas p&auml;rast s&uuml;dameklapirikke-operatsiooni vastu , viimased kolm aastat olid v&auml;ga rasked , &rdquo; meenutab mees mornilt . </s> </p>
+<p> <s> Ja kohe veereb Baskini jutt tema enda imeoperatsioonile : nelik&uuml;mmend viis p&auml;eva kestnud koomale ja ellu&auml;rkamisele seitseteist aastat tagasi ... </s> </p>
+<p> <s> &ldquo; Ameeriklased &uuml;tlevad , et p&auml;rast sellist operatsiooni peab vastu kaksk&uuml;mmend aastat , kaksk&uuml;mmend viis aastat on v&auml;ga h&auml;sti ! </s> <s> Siis peab uuesti opereerima ... &rdquo; </s> </p>
+<p> <s> Baskin peab nagu tohter loengu , kuidas taolisi operatsioone n&uuml;&uuml;d tehakse ja kuidas siis tehti . </s> <s> Pika jutu peale s&uuml;gab ta magama j&auml;&auml;nud koera . </s> <s> &ldquo; Aga n&auml;e , p&auml;rast seda olen teinud oma kolmk&uuml;mmend lavastust siin ja Soomes , m&auml;nginud v&auml;gevaid rolle ! &rdquo; </s> </p>
+<p rend='bold'> <s> &ldquo; Anna rullnokka ! &rdquo; </s> </p>
+<p> <s> Sel suvel lasi Baskin p&auml;rast 32aastast pausi ennast &auml;ra r&auml;&auml;kida vaba&otilde;huestraadile . </s> <s> Maie ja Valduri suvetuuri suhtes aga vana estraadikuningas vaimustust ei ilmuta . </s> <s> Ta imestab , et nii tohutu rahvahulk selle kompoti peale igas linnas kohale tormas . </s> </p>
+<p> <s> &ldquo; Eks ta ole , ilus ilm , &scaron;a&scaron;l&otilde;kki ja &otilde;lut saab , artiste ka igasugusele maitsele , &rdquo; arutleb ta . </s> </p>
+<p> <s> Kui Baskin Kanada Endlina lavale astus , l&otilde;ugasid lava ette kogunenud noorukid : &ldquo; Anna rullnokka ! &rdquo; </s> <s> Keskealised tahtsid Maiet ja Valdurit . </s> <s> &ldquo; Eks minu ja Orumetsa publik oli tasuta sisse lastud pension&auml;rid , &rdquo; v&otilde;tab Baskin asja huumoriga . </s> </p>
+<p> <s> Vanalinnastuudio uue pealiku Anne Veesaare troonik&otilde;nega hooaja avakoosolekul on maestro aga rahul . </s> <s> Tema arvates on teatris head ootus&auml;revust . </s> <s> Nagu mesilastarus , k&otilde;ik teevad t&ouml;&ouml;d vaikselt ja rahulikult , ei mingeid intriige ! </s> <s> Roman ( Eino Baskini Vanalinnastuudio pean&auml;itejuhist poeg - toim ) on ka tagasi t&otilde;mmanud . &rdquo; </s> </p>
+<p> <s> &ldquo; Pole enam niisugust direktorit nagu J&auml;rvet , keda ta v&otilde;is &auml;ra kasutada ja kes ei tundnud rahanumbreid ... &rdquo; </s> <s> Veesaar tegi trupile teatavaks , et teater on ligi miljoniga miinuses . </s> </p>
+ </div3> <div3 type='artikli_osa'> <head> Neli infarkti </head> 
+<p> <s> Kui Roman Baskin m&otilde;ni aasta tagasi l&otilde;puks n&otilde;ustus isalt p&auml;randina teatrit vastu v&otilde;tma , oli papa n&otilde;us ka poja tingimusega v&otilde;tta direktoriks tema lapsep&otilde;lves&otilde;ber J&uuml;ri J&auml;rvet . </s> <s> &ldquo; Aga eraelu s&otilde;prus ei anna t&ouml;&ouml;s kunagi head nahka ! </s> <s> Kui inimesed on sugulased-s&otilde;brad , j&auml;&auml;b ikka l&otilde;puks &uuml;ks teisele alla . &rdquo; </s> </p>
+<p> <s> Kui Roman n&otilde;udis lavastusele 50 000 krooni , oli J&uuml;ri valmis selle raha kas v&otilde;i palgafondist v&otilde;tma . </s> <s> &ldquo; Ta uskus pimesi , et kui Roman lavastab , toob see t&auml;ismaja . &rdquo; </s> <s> Aga lavastused eba&otilde;nnestusid ja raha muudkui l&auml;ks tuulde . </s> <s> &ldquo; Roman tahtis teha Vanalinnastuudiost t&otilde;sisemat teatrit . </s> <s> Liiga kiiresti , publikut murdes , &rdquo; leiab Eino Baskin . </s> </p>
+<p> <s> Poja suhtlemisraskusi ( kord &auml;gedushoos olla Roman Baskin isegi &uuml;hele vanemale naiskolleegile k&auml;ttpidi kallale l&auml;inud ) vana Baskin kommenteerida ei taha . </s> <s> &ldquo; Mina juures ei olnud ! &rdquo; </s> <s> V&otilde;tab hoopis omaks , et ka tema on n&auml;rvilises teatrit&ouml;&ouml;s endast v&auml;lja l&auml;inud . </s> </p>
+<p> <s> &ldquo; Iga kunstnik ju tahab , et teised ta loomingust peaksid . </s> <s> Pinge purskab v&auml;lja , see on inimlik . </s> <s> Paljud hakkavad teatris jooma , meie pole Romaniga kumbki ka joomamehed . </s> <s> Eks sellest pingest saigi Roman infarkti . </s> <s> Minul on teatris kolm infarkti olnud . &rdquo; </s> <s> Isegi selles m&otilde;&otilde;dab vana Baskin poega iseendaga . </s> </p>
+ </div3> <div3 type='artikli_osa'> <head> Hilinenud isaroll </head> 
+<p> <s> &ldquo; Onu , sulle on telefon ! &rdquo; </s> <s> P&otilde;&otilde;sast jookseb v&auml;lja naerul poiss , pall kaenlas , telefon teises k&auml;es . </s> <s> &ldquo; Anita , kullake , ma helistan hiljem tagasi , &rdquo; k&auml;hiseb Baskin telefoni . </s> </p>
+<p> <s> Poiss on Fred , Veera 12aastane poeg . </s> <s> Eelmisest abielust on naisel ka t&auml;iskasvanud t&uuml;tar . </s> <s> Fred aga on Roman Baskini poja ja t&uuml;trega samas eas . </s> <s> Baskin m&ouml;&ouml;nab , et tema kohtumised lastelastega on harvaks j&auml;&auml;nud . </s> <s> &ldquo; Nad on ju suvi otsa Hiiumaal , Romanil on seal p&auml;ris suur elamine . &rdquo; </s> </p>
+<p> <s> Baskin silitab koera . </s> <s> &ldquo; Jah , ega ma oma lapsi kahjuks pikalt kasvatada ei saanud . </s> <s> Kui Roman oli kolmeaastane , s&otilde;itsin ma &auml;ra Leningradi ja ... </s> <s> Teisest abielust t&uuml;tar suri kolmeaastaselt . </s> <s> Katrin P&auml;rn , kes on n&uuml;&uuml;d Vanemuise n&auml;itleja , s&uuml;ndis mul ju v&auml;ljaspool abielu . &rdquo; </s> </p>
+<p> <s> Suvemaja Tabasalu kanti ostis Baskin kolmk&uuml;mmend aastat tagasi . </s> <s> &ldquo; &Uuml;helt l&auml;ti vanaproualt . </s> <s> V&auml;ga odavalt sain ! &rdquo; </s> <s> Viis aastat tagasi &uuml;hel tormi&ouml;&ouml;l tekkinud elektril&uuml;hisest p&otilde;les maja maani maha . </s> <s> &ldquo; Ega suurt peale korstna alles j&auml;&auml;nud . &rdquo; </s> <s> Kindlustusrahaga ehitas Baskin maja uuesti &uuml;les . </s> </p>
+<p> <s> &ldquo; Aga p&auml;rast tulekahju kartis naine siin &uuml;ksi olla . </s> <s> Andsime siis osa maad ta s&otilde;brannale . </s> <s> S&otilde;branna soomlasest abikaasa ehitas siia teise maja k&otilde;rvale . &rdquo; </s> <s> Baskin osutab h&auml;&auml;rberile tagaaias . </s> <s> &ldquo; Uusrikaste maja k&otilde;rval on minu oma p&auml;ris onn ! </s> <s> Midagi erilist mul siin pole , kolm-neli tuba ja k&ouml;&ouml;k . &rdquo; </s> </p>
+<p> <s> Oma kesklinna korterist Tallinnas P&auml;rnu maanteel kolib Baskin aprillis suvemajja ning j&auml;&auml;b sinna detsembrikuuni . </s> <s> Siin on vaikne , ja meri on l&auml;hedal . </s> </p>
+<p> <s> Selle suve palavaga pole ma ujuma minna riskinud . </s> <s> Hommikul ja &otilde;htul , kui jahedam , k&auml;in koeraga jalutamas . </s> <s> Ja naisega kalal . &rdquo; </s> </p>
+<p> <s> &ldquo; Tema on mul ka k&otilde;va kalafanatt . &rdquo; </s> <s> Juulis k&auml;isid Baskinid s&otilde;pru k&uuml;lastades kalaretkel Soome j&auml;rvedel . </s> </p>
+<p rend='bold'> <s> &ldquo; Kunstisaalis , kunstisaalis ... &rdquo; </s> </p>
+<p> <s> N&auml;itamaks oma kalamehevarustust , avab Baskin garaazhiukse ning ajab pea kuklasse . </s> <s> Lagi on tapetseeritud tema lavastuste plakatitega . </s> <s> Tagaseinalt vaatab ikoonina vastu kunagise N&otilde;ukogude estraadikuninga Arkadi Raikini portree . </s> <s> &ldquo; Keegi joonistas temast selle , Raikin kinkis p&uuml;hendusega mulle . &rdquo; </s> </p>
+<p> <s> Pildirida j&auml;tkub tubades . </s> <s> Fotod &ldquo; Meelejahutaja &rdquo; ning Vanalinnastuudio asutanud trupist . </s> <s> Pilt Baskinist koos Mati Elistega &ldquo; Reklaamiklubi &rdquo; p&auml;evilt . </s> <s> Baskinist erinevatel aegadel maalitud paraadportreed . </s> </p>
+<p> <s> &Uuml;hel toauksel l&auml;igib kuldne silt &ldquo; Eino Baskin , pension&auml;r &rdquo; . </s> <s> L&otilde;puks ilmub v&auml;lja ka end seni varjanud abikaasa Veera . </s> <s> Toon-toonis kollasesse s&auml;titult , nagu ta poeg Fredki . </s> <s> Naeratades selgitab Veera nimesildi p&auml;ritolu : &ldquo; See kingiti Baskinile 70. s&uuml;nnip&auml;evaks . </s> <s> Ei , &otilde;nneks polnud see vihje teatrilt , lihtsalt &uuml;ks tuttav abielupaar kinkis . &rdquo; </s> </p>
+<p> <s> Veera r&auml;&auml;gib , kuidas ta on p&uuml;&uuml;dnud v&auml;ltida Baskini-proua staatust . </s> <s> &ldquo; Tahan teha rahulikult oma advokaadit&ouml;&ouml;d , &rdquo; p&otilde;hjendab naine . </s> <s> &ldquo; Esines juhtumeid , kui l&auml;ksin kohtusaali , tutvustasin end kui kaitsjat Veera Tolli-Baskinit ... </s> <s> Ja saalis tekkis mu nime peale surmavaikus . &rdquo; </s> <s> Veera n&auml;ol s&auml;rab naeratus . </s> <s> &ldquo; &Otilde;nneks tulevad v&auml;rskemad uudised peale , inimesed harjuvad &auml;ra . &rdquo; </s> </p>
+<p> <s> Veera veatust eesti keelest kostab kerge vene aktsent : &ldquo; Jah , ma olen venelane . </s> <s> Minu ajal oli Tartu &uuml;likoolis v&otilde;imalik ka vene keeles &otilde;ppida , aga p&uuml;&uuml;dsin k&auml;ia loengutes eesti grupiga . </s> <s> Eesti keel lihtsalt meeldis . &rdquo; </s> </p>
+<p> <s> &ldquo; Tahaks juba ujuma minna , &rdquo; avaldab Fred vaikselt vahele oma arvamust . </s> <s> Baskin aga t&uuml;&uuml;rib aeda . </s> <s> &ldquo; S&ouml;&ouml;ge punast s&otilde;start ! &rdquo; kamandab ta . </s> <s> Baskini pea kaob okste alla , sealt n&otilde;uab ta naiselt : &ldquo; Kuule , miks neid nii v&auml;he on ? &rdquo; </s> <s> Naine vastab nunnu naeratusega : &ldquo; Baskin , peale selle , et meie sinuga s&ouml;&ouml;me , eks linnud ka aitavad . &rdquo; </s> </p>
+<p> <s> Baskin vastab meherolli nautides : &ldquo; Aed on mul naise prioriteet , tema j&auml;ndab sellega hommikust &otilde;htuni . &rdquo; </s> <s> Veera vadistab seepeale r&otilde;&otilde;msalt t&auml;navu aeda &auml;estavate vesirottide ja muttide nuhtlusest . </s> </p>
+<p> <s> &ldquo; Saaks selle tuuri kaelast &auml;ra , &rdquo; toriseb Baskin marju suhu toppides . </s> <s> &ldquo; Maikuust saati polnud t&ouml;&ouml;d teinud , eks ma m&otilde;tlesin , et tuleb natuke teenida ka . </s> <s> Arvatakse , et Baskin on rikas inimene . </s> <s> Kui &uuml;tlen , et mu teatripalk on kuus tuhat , hakkavad k&otilde;ik naerma . </s> <s> Uue asfaldi panin hoovi maha , katus tahab remonti , abikaasal vaja uut pesumasinat ja k&uuml;lmakappi ... &rdquo; </s> </p>
+<p> <s> &ldquo; Manja , Manja ! &rdquo; manitseb Veera linde jahtivat Moonikat . </s> </p>
+ </div3> <div3 type='artikli_osa'> <head> T&auml;toveeritud elulugu </head> 
+<p> <s> Vanemad daamid &otilde;hkavad t&auml;naseni noore Eino Baskini sametise h&auml;&auml;le ja tumedate lokkide j&auml;rele . </s> <s> Tuhmunud t&auml;toveeringud elup&otilde;lise s&uuml;dametemurdja k&auml;sivartel k&otilde;nelevad enda eest . </s> </p>
+<p> <s> Baskin uurib noolest l&auml;bistatud s&uuml;dant k&auml;sivarrel : &ldquo; Oh , olin seitseteist ja armusin . </s> <s> T&uuml;druk oli kuusteist . &rdquo; </s> <s> Baskini muidu t&otilde;sisesse naljamehen&auml;kku ilmub kaval hamstrinaeratus . </s> <s> &ldquo; Siis polnud ju mingit kuradima atribuutikat ! </s> <s> L&auml;ksin koju , kingatallast sulatasin kummi ja hakkasin n&otilde;elaga toksima . </s> <s> Sellest oleks v&otilde;inud saada niisuguse paganama infektsiooni ! </s> <s> Paari p&auml;eva p&auml;rast pistsin plikale paistes k&auml;e ette . &rdquo; </s> </p>
+<p> <s> Kuidas m&otilde;jus ? </s> <s> Naeratav Veera vastab mehe eest : &ldquo; Oi , tal oli m&otilde;ju paljudele naistele ! &rdquo; </s> <s> Veera h&auml;&auml;les k&otilde;neleb omanikuuhkus . </s> </p>
+<p> <s> Baskin ise rahmab k&auml;ega : &ldquo; Poole aasta p&auml;rast l&auml;ksime plikaga lahku . </s> <s> Mina s&otilde;itsin &auml;ra , tema j&auml;i kuskile Venemaale . </s> <s> See oli siis , kui ma s&otilde;jaajal Kasahstanis olin . &rdquo; </s> </p>
+<p> <s> Ankru k&auml;erandmele &ldquo; tikkis &rdquo; Baskin , merekoolis motoristiks &otilde;ppides . </s> <s> Ka suurte vene t&auml;htedega &ldquo; Gena &rdquo; saab seletuse : &ldquo; Eino nime Venemaal ju ei tunnistatud . &rdquo; </s> <s> Hiljem n&auml;itlejana n&auml;gi Baskin kurja vaeva , et t&auml;toveering k&auml;erandmel lavalt saali ei paistaks . </s> <s> &ldquo; M&auml;ngi sellisega ministrit ! </s> <s> Varrukaotsad olid grimmist pruunid . &rdquo; </s> </p>
+<p> <s> Baskin itsitab : &ldquo; Oh , eks nooruses teeb ju igasuguseid lollusi . &rdquo; </s> <s> Plaanitsetud Pika Hermanni torn j&auml;&auml;nud tal siiski k&auml;sivarrele tegemata . </s> </p>
+<p rend='bold'> <s> Kuidas k&ouml;ita noort naist ? </s> </p>
+<p> <s> Abielu&otilde;nn endast kaksk&uuml;mmend kaheksa aastat noorema naisega v&otilde;tab nii m&otilde;negi mehe kadedalt kukalt s&uuml;gama . </s> <s> Eino ja Veera vaatavad &otilde;nnelikku muhelust tagasi hoides teineteisele otsa . </s> </p>
+<p> <s> &ldquo; Oh , me oleme tuttavad juba ammu , Baskini &ldquo; Pr&uuml;gikastide &rdquo; ajast , 1995. aastast , &rdquo; naeratab Veera . </s> <s> &ldquo; Baskinil olid juriidilised probleemid , korter omanikule tagastatud majas . </s> <s> Tuttavad soovitasid tal minu poole p&ouml;&ouml;rduda . &rdquo; </s> </p>
+<p> <s> Millal ja kuidas kliendi ja advokaadi suhe romantilised tuurid peale v&otilde;ttis , kes seda enam m&auml;letab . </s> <s> &ldquo; Eks see asjaolude kokkusattumine oli , &rdquo; noogutab paar . </s> <s> M&otilde;lemad olid toona abielus . </s> <s> &ldquo; Oh , see on nii keeruline , &rdquo; ohkab Veera ja vaatab areldi Baskini otsa . </s> </p>
+<p> <s> Ja Baskin r&auml;&auml;gib : &ldquo; Elasin oma abikaasaga kolmk&uuml;mmend kaheksa aastat , tema surmani . </s> <s> ( Galina suri 1999. a , Eino ja Veera abiellusid 2000. a detsembris . - M.K. ) Haige inimene , ma poleks teda iial maha j&auml;tnud , ja mul polnud selleks ka vajadust . </s> <s> Kui aus olla , siis mees v&otilde;ib ju endale v&auml;ljaspool abielu ka &uuml;ht-teist lubada . </s> <s> Ei pea ju seep&auml;rast oma naist maha j&auml;tma , lahkuminekuks peaksid olema veel mingid teised p&otilde;hjused . </s> <s> Kui mees natuke &uuml;le aisa l&ouml;&ouml;b , ega siis sellest midagi ei juhtu maailmas . </s> <s> Miljonid inimesed on seda teinud . </s> <s> Ma ei &uuml;tleks , et see oleks &uuml;learu keeruline situatsioon , elus juhtub k&otilde;ike . </s> <s> On ju naisi , kes l&auml;hevad selle peale v&auml;lja , et tal on vaja last , kuigi teab , et selle mehega ta kunagi koos elama ei hakka . </s> <s> Naine saab lapse ja on &otilde;nnelik . </s> <s> Aga mina v&otilde;ib-olla ei hinda seda nii k&otilde;rgelt , alati ei tule see armastus nii kergelt k&auml;tte . </s> <s> Ja otsides armastust , leiad seda veel v&auml;hem . </s> <s> Abiellusin k&auml;hku . </s> <s> R&auml;&auml;gin oma teisest abikaasast . </s> <s> L&auml;ksin P&auml;rnu sanatooriumisse , istusime &uuml;hte lauda ja kahe kuu p&auml;rast juba abiellusime ... </s> <s> Okei , aitab ! &rdquo; ja Baskin p&ouml;&ouml;rab jutu autodele . </s> </p>
+<p> <s> &ldquo; N&auml;e , ostsin naisele uue Daewoo , aga Soomes j&auml;ime kaks korda , pl&otilde;mm ! kurat , teele ! &rdquo; </s> <s> Oma Ford Focusega on maestro rahul : &ldquo; Selle hinna kohta ikka k&otilde;ige parem auto ! &rdquo; </s> </p>
+ </div3> </div2> <div2 type='artikkel'> <head> Arno M&auml;gi ohvrid ja r&otilde;&otilde;m </head> 
+<p> <bibl> <author> <s> Kaire-K&uuml;lli Kuldbek </s> </author> </bibl> </p>
+<p rend='bold'> <s> Pankrotihaldur ARNO M&Auml;GI kartis poolteist aastat tagasi beebi s&uuml;ndi . </s> <s> Ta ei teadnud , kuidas n&auml;evad v&auml;lja m&auml;hkmed , r&auml;&auml;kimata lapse pepu rookimisest . </s> </p>
+<p> <s> T&auml;naseks on viiekordne isa l&auml;bi teinud suure muutuse . </s> <s> &ldquo; Ma olen juba mitu korda Eliisel m&auml;hkmeid vahetanud ja n&uuml;&uuml;d tean , millised need on , &rdquo; uhkustab papa M&auml;gi ( 51 ) , kel on nelja naisega kokku neli t&uuml;tart . </s> </p>
+<p> <s> &ldquo; See pole mingi karistus . </s> <s> Pigem on see preemia . </s> <s> Mul on &otilde;nne olnud , et olen &otilde;rnema sooga elus palju kokku puutunud , &rdquo; kergitab Arno M&auml;gi oma P&auml;rnu suvekorteri nahksohval m&otilde;nuledes suunurki . </s> </p>
+<p rend='bold'> <s> Oma elukaaslase Eva ( 23 ) viimastel rasedusn&auml;dalatel tundsid muret , et s&uuml;nnituse pealtn&auml;gemine v&otilde;tab sult seksiisu . </s> </p>
+<p> <s> Tol p&auml;eval , &otilde;nneks v&otilde;i &otilde;nnetuseks , oli &auml;&auml;retult raske . </s> <s> Palju t&ouml;&ouml;d , k&otilde;ik venis . </s> <s> Nii kujuneski , et ma ei saanud s&uuml;nnituse juures olla . </s> <s> Aga see seksijutt oli naljaga pooleks &ouml;eldud . </s> <s> Minu ja Eva vahel ei ole midagi muutunud , k&otilde;ik on sama meeldiv kui enne , peame lihtsalt rohkem lapsele m&otilde;tlema . </s> </p>
+<p rend='bold'> <s> Kuidas s&uuml;nnitus kulges ? </s> </p>
+<p> <s> K&otilde;ik l&auml;ks h&auml;sti . </s> <s> Ma arvan , et Evale polnud see just kerge , aga &uuml;tleme , et t&auml;naseks on k&otilde;ik m&ouml;&ouml;das . </s> </p>
+<p rend='bold'> <s> Millised olid su esimesed tunded-m&otilde;tted ? </s> </p>
+<p> <s> J&auml;lle t&uuml;druk ! </s> <s> ( M&auml;gi itsitab t&uuml;kk aega . ) </s> <s> Ma ei oskagi kirjeldada . </s> <s> &Uuml;levoolavaid emotsioone polnud . </s> </p>
+<p rend='bold'> <s> Sa &uuml;tlesid tookord , et kardad beebit . </s> <s> Kuidas sa praegu ennast tunned ? </s> </p>
+<p> <s> Kartus oli &otilde;igustatud . </s> <s> Mu teised lapsed on juba teismelised . </s> <s> N&uuml;&uuml;d peaks olema rohkem aega iseenda ja oma hobide jaoks . </s> <s> Kartsin , et see piirab mind ja v&otilde;tab mu aja . </s> <s> Aga ma ei kahetse . </s> </p>
+<p rend='bold'> <s> Ja sa ohverdasid oma aja ? </s> </p>
+<p> <s> Jah . </s> <s> Ma ohverdasin aega , mis oli m&otilde;eldud mu hobidele ja iseendale . </s> <s> Aga n&uuml;&uuml;d on mul v&otilde;imalus suhelda v&auml;ikese Eliisega . </s> <s> Ausalt &ouml;eldes , Eliisega tegeldes m&otilde;istsin , et pean ka oma teiste t&uuml;tardega rohkem suhtlema . </s> <s> Ta on mind muutnud perekesksemaks . </s> <s> Samas , kahju , et pole enam aega s&otilde;pradega l&auml;bi k&auml;ia . </s> </p>
+<p rend='bold'> <s> Kuidas sa ennast praegu tunned , nii-&ouml;elda noore papana ? </s> </p>
+<p> <s> Ei , no kindlasti annab see v&auml;rskust . </s> <s> V&auml;ga vahva ! </s> <s> Aga reisidel tunnen , et olen kaasa v&otilde;etud palgata lapsehoidjaks . </s> <s> Mul ei ole kannatust pikka aega lapsehoidja olla . </s> <s> Ma ei ole harjunud , et pean mingi kindla aja ainult lapsehoidmisega tegelema - nii v&auml;ikesele lapsele pean ju t&auml;ielikult p&uuml;henduma . </s> <s> Tahaksin vahepeal lehti lugeda , t&ouml;&ouml;asju ajada , malet m&auml;ngida ... </s> <s> Eks ma siis poetan ta Eva s&uuml;lle . </s> </p>
+<p rend='bold'> <s> Kas sa p&auml;ris &uuml;ksi oled ka lapsega olnud ? </s> </p>
+<p> <s> Olen ikka , aga l&uuml;hiajaliselt . </s> <s> Nii kaks-kolm tundi . </s> <s> Lisaks sellele , et ma pole lapsehoidja t&uuml;&uuml;p , on mul igap&auml;evased kohustused . </s> <s> Mul on t&ouml;iseid kokkuleppeid ka puhkep&auml;evadeks . </s> <s> Ja ka hobid . </s> </p>
+<p rend='bold'> <s> Poolteist aastat tagasi ei teadnud sa , kuidas n&auml;evad v&auml;lja m&auml;hkmed . </s> <s> Aga n&uuml;&uuml;d ? </s> </p>
+<p> <s> Ma olen juba mitu korda vahetanud , nii et tean , millised need on . </s> <s> Pole hullu midagi . </s> </p>
+<p rend='bold'> <s> Kui soovite veeta aega kahekesi , kes teid siis aitab ? </s> </p>
+<p> <s> &Otilde;nneks on Eval kaheksa &otilde;de , nemad aitavad . </s> <s> Ja minul kaks &otilde;de . </s> <s> P&auml;ris j&auml;rjekorda , t&otilde;si k&uuml;ll , lapsehoidmisel siiski pole . </s> </p>
+<p rend='bold'> <s> Kes &ouml;&ouml;sel lapse nutu peale esimesena t&otilde;useb ? </s> </p>
+<p> <s> No , &auml;rkame m&otilde;lemad . </s> <s> &Otilde;nneks magab Eva lapsele l&auml;hemal . </s> <s> Eva vahest &uuml;tleb , et n&uuml;&uuml;d on sinu kord . </s> <s> Ma ikka &uuml;ritan Evat aidata , tema tegeleb lapsega ju &uuml;heksak&uuml;mmend protsenti ajast . </s> <s> Tunnen vahetevahel kohustust . </s> <s> Kui on vaba aega , siis tegelen meelsasti lapsega . </s> </p>
+<p rend='bold'> <s> Kas imetav naine oli sinu jaoks meeldiv v&otilde;i ebameeldiv ? </s> </p>
+<p> <s> Isegi meeldiv . </s> <s> See on v&auml;ga loomulik tegevus . </s> <s> Esimeseks tuleb meelde , et tal olid siis tavalisest suuremad rinnad . </s> </p>
+<p rend='bold'> <s> Millal Eliise k&auml;ima hakkas ja mis oli ta esimene s&otilde;na ? </s> </p>
+<p> <s> Millal t&auml;pselt ta esimese sammu tegi , tuleb ikka Eva k&auml;est k&uuml;sida . </s> <s> Aga esimene s&otilde;na oli &ldquo; puu &rdquo; . </s> <s> Teine s&otilde;na oli &ldquo; tiss &rdquo; . </s> </p>
+<p rend='bold'> <s> Kas sa oled nunnutaja ? </s> </p>
+<p> <s> No ma ei tea , kas see on nunnutamine , aga kui laps tahab suhelda , siis kindlasti v&otilde;tan s&uuml;lle ja r&auml;&auml;gin temaga . </s> <s> Kui mul on kiire , t&ouml;&ouml;asjad pooleli , siis sokutan lapse kohe j&auml;lle Eva k&auml;tte . </s> </p>
+<p> <hi rend='bold'> <s> Kuidas suhtuvad Eliisesse su teised t&uuml;tred ? </s> </hi> <s> ( Arnol on varasematest abieludest kolm t&uuml;tart : Eva ( 19 ) , Kai ( 14 ) , Anni ( 13 ) . ) </s> </p>
+<p> <s> Esimesed tunded v&otilde;isid olla vastuolulised . </s> <s> &Auml;sja oli toimunud abielulahutus , ja lapsed polnud sellega oma sisimas leppinud . </s> <s> Aga n&uuml;&uuml;d nad v&otilde;tavad teda kui oma &otilde;de . </s> </p>
+<p rend='bold'> <s> Aasta tagasi tundis Anni , kes elab sinu juures , muret lapsehoidmise p&auml;rast . </s> <s> Kas suhtumine on muutunud ? </s> </p>
+<p> <s> Samasugust muret tundis ka minu &otilde;e poeg . </s> <s> Ta elas vahepeal meie juures . </s> <s> Viskasin ta &uuml;le nalja , et sa hakkad n&uuml;&uuml;d &otilde;htuti last hoidma . </s> <s> Poiss kolis seepeale minema . </s> <s> Aga Anni suhtub Eliisesse aina t&auml;helepanelikumalt . </s> <s> Lapsehoidmist pole ta veel praktiseerinud . </s> </p>
+<p rend='bold'> <s> Kuidas oled kindlustanud t&uuml;tarde tuleviku ? </s> </p>
+<p> <s> No , peaks ikka vastu-pidi olema . </s> <s> Kui oled nii vana kui mina , peaksid tegelema enda kindlustamisega , et mitte laste kukile j&auml;&auml;da . </s> <s> Aga laste puhul ... </s> <s> Ma olen arvestanud sellega , et kulutan raha oma laste haridusele . </s> <s> Maksan &otilde;ppemaksud - ma ei taha &ouml;elda , et r&otilde;&otilde;msalt , sest raha pole kunagi r&otilde;&otilde;mus v&auml;lja k&auml;ia - aga hea meelega , sest nad &otilde;pivad . </s> <s> Tahan v&otilde;imaldada neile kas v&otilde;i v&auml;lismaal &otilde;ppimist . </s> <s> Ja annan nii-&ouml;elda stipendiumi , nii kaua kui nad &otilde;pivad . </s> <s> Haridus on number &uuml;ks . </s> <s> Teiseks , tahan anda eluks mingi stardi , et nad ei peaks muretsema olmeprobleemide p&auml;rast nagu elamispind ja transport . </s> </p>
+<p rend='bold'> <s> Millised on sinu kasvatusp&otilde;him&otilde;tted ? </s> </p>
+<p> <s> Selgitus , veenmine . </s> <s> Ma ei saa ju varsti nende tegudele k&auml;tt ette panna , aga alati &uuml;tlen v&auml;lja oma arvamuse . </s> <s> Loomulikult saavad teismelised asjadest ju teisiti aru , aga nad on arukad t&uuml;drukud . </s> </p>
+<p rend='bold'> <s> Karistuspoliitika ? </s> </p>
+<p> <s> Pole mingeid tegureid olnud , mille p&auml;rast karistada . </s> <s> Nooremana on nad saanud vitsa , aga mul on selle p&auml;rast v&auml;ga h&auml;bi . </s> </p>
+<p rend='bold'> <s> Su elukaaslane on sinust kaksk&uuml;mmend kaheksa aastat noorem ... </s> </p>
+<p> <s> Eva on v&auml;ga asjalik . </s> <s> Alguses kartsin , et erineva pikkusega elukogemus l&ouml;&ouml;b v&auml;lja . </s> <s> Praegu k&uuml;ll seda probleemi pole . </s> <s> Sageli m&otilde;tleme &uuml;hte moodi ja &uuml;hel ajal. </s> <s> Me sobime . </s> </p>
+<p rend='bold'> <s> Kas Eva on sinu teine noorus ? </s> </p>
+<p> <s> Esimene veel kestab . </s> </p>
+<p rend='bold'> <s> Kas ja millal kavatsed abielluda ? </s> </p>
+<p> <s> Viimati s&otilde;bra pulmas pandi isegi kuup&auml;ev paika - tuleva aasta juunis . </s> <s> Ega p&auml;&auml;su pole . </s> <s> Olen muutnud oma seisukohta , et iga j&auml;rgmine abiellumine peaks olema tagasihoidlikum . </s> <s> Praegu arvan , et iga j&auml;rgmine pidu peaks olema eelmisest suurejoonelisem . </s> </p>
+<p rend='bold'> <s> Sul on olnud viis naist ja s&uuml;ndinud on ka ainult t&uuml;tred . </s> <s> Kas oled m&otilde;elnud sellele kui karistusele ? </s> </p>
+<p> <s> Pigem on see preemia . </s> <s> Mul on &otilde;nne olnud , et olen &otilde;rnema sooga elus palju kokku puutunud . </s> </p>
+ </div2> </div1> <div1 type='rubriik'> <head> Nupud </head> <div2 type='artikkel'> <head> Andrus Vaariku segane lahkumine </head> 
+<p> <bibl> <author> <s> Jaanus H&auml;marsoo </s> </author> </bibl> </p>
+<p rend='bold'> <s> Eesti Draamateatri j&auml;tnud ANDRUS VAARIKu ametliku lahkumisversiooni varjus peitub veel &uuml;ks p&otilde;hjus . </s> </p>
+<p> <s> Eesti Draamateatri j&auml;tnud Andrus Vaariku ( 44 ) ametliku lahkumisversiooni varjus peitub veel &uuml;ks p&otilde;hjus . </s> <s> Vaarik lahkus k&uuml;ll pooltevahelisel kokkuleppel , kuid hinnatud n&auml;itleja p&auml;rast tuntakse teatris siiski t&otilde;sist muret . </s> <s> Varem oma v&otilde;idust alkoholismi &uuml;le ka avameelselt r&auml;&auml;kinud Vaarik s&otilde;brustab taas tuliveega . </s> </p>
+<p> <s> Draamateatri direktor Ruti Einpalu kurdab ajapuudust ja soovitab p&ouml;&ouml;rduda lavastaja Mati Undi poole . </s> <s> Unt oli Einpalu ja Vaariku k&otilde;rval &uuml;ks kolmepoolse kokkuleppe tegijaist . </s> <s> &ldquo; Vaadake , &rdquo; lausub Unt , &ldquo; ma ei saa nii v&auml;ga r&auml;&auml;kida n&auml;itleja isikup&auml;rastest loomujoontest . </s> <s> Kui Andrus tahab , r&auml;&auml;gib ta k&otilde;igest ise . &rdquo; </s> <s> Unt tunnistab , et tahtis n&auml;ha Vaarikut m&auml;ngimas oma uues t&uuml;kis &ldquo; Potilaadale ! &rdquo; , kuid oli sunnitud ta peagi asendama &Uuml;llar Saarem&auml;ega . </s> </p>
+<p> <s> Vaarik peab p&auml;rast k&uuml;simust lahkumise k&otilde;ikide p&otilde;hjuste kohta pika m&otilde;ttepausi . </s> <s> Ning vastab siis kohmetult : &ldquo; No ma j&auml;&auml;n ikka oma versiooni juurde . &rdquo; </s> <s> Vaarik p&otilde;hjendas oma lahkumist teatrist sooviga muutuste ja puhkuse j&auml;rele - suvel tuuritas ta m&ouml;&ouml;da Eestit oma menut&uuml;kiga &ldquo; Ei v&otilde;i olla &rdquo; . </s> </p>
+ </div2> <div2 type='artikkel'> <head> Vahur Kersna tervis vedas alt </head> 
+<p> <bibl> <author> <s> Jaanus H&auml;marsoo </s> </author> </bibl> </p>
+<p rend='bold'> <s> &ldquo; Olin haigusest n&otilde;rk , &rdquo; p&otilde;hjendab VAHUR KERSNA , miks tal ajakirjanike k&uuml;mnev&otilde;istluses v&otilde;it k&auml;ttesaamatuks j&auml;i . </s> </p>
+<p> <s> &ldquo; Olin haigusest n&otilde;rk , &rdquo; p&otilde;hjendab Vahur Kersna ( 40 ) , miks ta ajakirjanike k&uuml;mnev&otilde;istluses Postimehe uudistereporterile Urmas Seaverile ( 28 ) alla vandus . </s> </p>
+<p> <s> T&otilde;vevoodist t&otilde;usnud Kersna n&auml;itas Hiiumaal ometi vormi , t&otilde;ustes 21 v&otilde;istelnud ajakirjaniku seas teisele kohale . </s> <s> Seaveri edu selgus alles p&auml;rast eelviimast ala , odaviset . </s> <s> L&otilde;ppkokkuv&otilde;ttes kogus Seaver 4635 , Kersna 4516 punkti . </s> </p>
+<p> <s> Mis t&otilde;bi ta enne j&otilde;ukatsumist jalust niitis , Kersna ei teagi . </s> <s> &ldquo; Ma ei viitsinud arstile minna , &rdquo; nendib ta . </s> <s> &ldquo; Polikliinikutes v&otilde;ideldes j&auml;&auml;d veel haigemaks . </s> <s> Ja kui oledki arstini v&auml;lja murdnud , soovitatakse sulle k&uuml;lmetuse peletamiseks ehk mustikateed ... &rdquo; </s> </p>
+<p> <s> Kersna arvab , et tegu polnud kindlasti mitte lihtsa k&uuml;lmetuse , vaid mingi kummalise viirusega . </s> <s> &ldquo; Pidev higistamine , nina leemendas , r&ouml;ga oli k&otilde;ik kohad t&auml;is , &rdquo; loetleb Kersna s&uuml;mptomeid . </s> <s> &ldquo; Isegi staadionil v&auml;rvusin veel n&auml;ost roheliseks ! &rdquo; </s> </p>
+<p> <s> Enne t&auml;navust osales Kersna ajakirjanike k&uuml;mnev&otilde;istlusel kaksteist aastat tagasi . </s> <s> Toona praalis esikoha napsanud telet&auml;ht , et teeb v&auml;ljakule uuesti asja siis , kui keegi tema tulemuse seljatab . </s> <s> Vahurit kannustas n&uuml;&uuml;d v&otilde;lga &otilde;iendama Maalehe peatoimetaja Sulev Valner , kes kolme aasta eest purustas 5077 punktiga tema k&uuml;mnenditaguse rekordi , 4994 punktiskoori . </s> </p>
+ </div2> </div1> <div1 type='rubriik'> <head> V&auml;lismaa </head> <div2 type='artikkel'> <head> Ozzy adopteerib </head> 
+<p rend='bold'> <s> Endine Black Sabbathi laulja OZZY OSBOURNE on koos abikaasa Sharoniga otsustanud lapsendada oma t&uuml;tre Kelly parima s&otilde;bra . </s> </p>
+<p> <s> Kuigi Ozzy Osbourne'ile ( 53 ) meeldib end nimetada &ldquo; pimeduse printsiks &rdquo; , leidub tema olemuses ka kristliku halastuse algeid . </s> <s> Endine Black Sabbathi laulja ja praeguse kuulsa t&otilde;sielusarja The Osbournes staar on koos abikaasa Sharoniga otsustanud lapsendada oma t&uuml;tre Kelly parima s&otilde;bra , 18aastase Robert Marcato . </s> <s> P&otilde;hjus lihtne : Roberti ema suri just sellesse v&auml;hki , mida Sharonil paras-jagu ravitakse . </s> </p>
+<p> <s> Robert kolib peagi Osbourne'ide Los Angelese villasse ning tema uued vanemad on lubanud kinni maksta noormehe &otilde;pingud draamakoolis . </s> </p>
+<p> <s> Paraku t&auml;hendab Osbourne'i perega &uuml;hinemine ka &uuml;le&ouml;&ouml; kuulsaks saamist , sest ilmselt ei ole Robertil perekondlikust dokumentaalseebist p&auml;&auml;su . </s> <s> &ldquo; Robert on meil veidi h&auml;belik , sest tal ei ole perekonda , &rdquo; &uuml;tleb Sharon , kel ravitakse p&auml;rasoolev&auml;hki . </s> </p>
+ </div2> <div2 type='artikkel'> <head> Jennifer Lopezi armuaf&auml;&auml;r </head> 
+<p> <bibl> <author> <s> V&auml;lismaa lehek&uuml;ljed toimetanud Aive Lauriste </s> </author> </bibl> </p>
+<p rend='bold'> <s> Tint tema lahutuspabereil pole veel kuivanud , kuid juba patseerib JENNIFER LOPEZ ringi uue kallima BEN AFFLECKiga . </s> </p>
+<p> <s> Tema 33. s&uuml;nnip&auml;ev oli peaaegu m&ouml;&ouml;das , kuid Jennifer Lopezit ootas veel &uuml;ks &uuml;llatus . </s> <s> 24. juuli , kui kell l&auml;henes kesk&ouml;&ouml;le , lahkus n&auml;itlejatar oma treilerist , et teha New Yorgi Metropolitani kunstimuuseumi treppidel p&auml;eva viimane stseen filmile The Chamber-maid ( &ldquo; Toateenija &rdquo; ) . </s> <s> Surisevate kaamerate asemel leidis ta eest 200pealise v&otilde;ttemeeskonna , kes h&otilde;iskasid &uuml;heskoos : &ldquo; Palju &otilde;nne s&uuml;nnip&auml;evaks ! &rdquo; </s> </p>
+<p> <s> &ldquo; Ma armastan teid k&otilde;iki ! &rdquo; h&uuml;&uuml;dis Jennifer , haaras k&auml;igu pealt kaks tordit&uuml;kki ning tuiskas treilerisse tagasi . </s> <s> Miks ? </s> <s> Sest seal ootas teda Ben Affleck ( 29 ) . </s> <s> Isegi mees , kes on armunud seksis&uuml;mbolisse , peab s&ouml;&ouml;ma . </s> </p>
+<p> <s> Kuidas need asjad Jenniferil nii kiiresti k&auml;ivad ? </s> <s> &ldquo; Kui ta midagi tahab , peab ta seda saama kohe . </s> <s> Ja ta tahtis seda , &rdquo; teab moefotograaf Gilles Bensimon . </s> </p>
+ <div3 type='artikli_osa'> <head> Kuulutas tundeid ajalehes </head> 
+<p> <s> 22. juuli , kolm p&auml;eva enne seda kui Jennifer ja tema tantsijast abikaasa Cris Judd lahutuse sisse andsid , tutvustas Lopez Affleckit kui oma uut boyfriendi . </s> <s> S&otilde;prade s&otilde;nul on ta mehest k&otilde;rvuni sisse v&otilde;etud . </s> <s> &ldquo; Tema meelest on Ben tohutult andekas , tark ja naljakas , &rdquo; r&auml;&auml;gib &uuml;ks Jenniferi s&otilde;branna . </s> </p>
+<p> <s> Bronxis s&uuml;ndinud Jennifer ja Bostonist p&auml;rit Ben tutvusid m&ouml;&ouml;dunud talvel filmi Gigli v&otilde;tetel . </s> <s> M&auml;rtsis ostis Affleck ajalehtedes reklaamipinda , et kuulutada , kui fantastiline naine on Jennifer . </s> <s> S&uuml;mpaatia oli vastastikune . </s> <s> &ldquo; Me m&otilde;lemad &uuml;llatasime teineteist , &rdquo; r&auml;&auml;kis Lopez Oprah Winfrey talk show's mais . </s> <s> &ldquo; Ma arvasin , et ta on selline t&uuml;&uuml;piline Hollywoodi poiss , aga selgus , et ta on v&auml;ga sarmikas , armas ja kena inimene . &rdquo; </s> </p>
+<p> <s> Kuulujutte armastusest t&ouml;&ouml;postil eitasid m&otilde;lemad , nagu ka teineteiseleidmist suve hakul . </s> <s> See juhtus nende s&otilde;nul mitu n&auml;dalat hiljem . </s> <s> Kuid Affleck , kes k&auml;is Lopezi restorani Madre avamisel ning kutsus ta veidi hiljem Los Angeleses l&otilde;unale , oli ilmselgelt armunud juba kevadel . </s> <s> &ldquo; Ben p&uuml;&uuml;dis Jenniferile ligi p&auml;&auml;seda , &rdquo; teab &uuml;ks asjassep&uuml;hendatu . </s> </p>
+ </div3> <div3 type='artikli_osa'> <head> Salaromantika </head> 
+<p> <s> Armunud paar v&auml;idab , et armuleek lahvatas alles 21. juulil , paar p&auml;eva p&auml;rast seda , kui Lopez ja Judd olid otsustanud oma 10 kuud kestnud abielule punkti panna . </s> <s> Affleck lendas Los Angelese-sse Lopezi rendivillasse , kus neid n&auml;hti rannal suudlemas . </s> <s> Algas tormiliselt romantiline n&auml;dal , mille jooksul p&uuml;&uuml;dis paar ajakirjandusega peitust m&auml;ngida . </s> <s> N&auml;iteks korraldas Affleck Lopezile &uuml;llatus-s&uuml;nnip&auml;evapeo restoranis Park . </s> <s> Afflecki taskus peitus ka v&auml;ike isiklik &uuml;llatus Harry Winstoni valgete ja kollaste teemantidega k&auml;ev&otilde;ru n&auml;ol . </s> <s> &ldquo; See siin on kaunile naisele , keda ma armastan , &rdquo; teatas Affleck Lopezi kolmek&uuml;mne s&otilde;bra-sugulase ees . </s> <s> Kui kohale saabus paparazzoparv , p&otilde;genes paar eraldi autodes , et paari kilomeetri p&auml;rast j&auml;lle kohtuda . </s> <s> M&otilde;ni p&auml;ev hiljem poseerisid nad juba lahkelt filmi The Chambermaid fotograafile . </s> <s> &ldquo; Nad suudlesid vist v&auml;hemalt 15 minutit j&auml;rjest , &rdquo; r&auml;&auml;gib &uuml;ks pealtn&auml;gija . </s> <s> &ldquo; Jennifer tundus olevat nii &otilde;nnelik . &rdquo; </s> </p>
+<p rend='bold'> <s> Teineteise jaoks loodud ? </s> </p>
+<p> <s> Lopezil ja tema uuel v&auml;ljavalitul on nii m&otilde;ndagi &uuml;hist - n&auml;iteks kaheksakohaline filmihonorar ja albumid v&auml;ljal&otilde;igetega k&otilde;mulehtedest . </s> <s> M&otilde;lemad on tippu j&otilde;udnud raske t&ouml;&ouml;ga , m&otilde;lemal on selja taga keerulisi armulugusid . </s> <s> Lopez on olnud kaks korda abielus -13 kuud kelner Ojani Noaga ja 10 kuud Cris Juddiga . </s> <s> Affleck on p&auml;rast lahkuminekut n&auml;itlejatar Gwyneth Palt-row'st suhelnud n&auml;itlejataride Pamela Andersoni , Shoshanna Lons-teini ja Famke Jansseniga . </s> <s> Ning veetnud kolm kuud viinaravil . </s> <s> &ldquo; Ma polnud oma eluga rahul , &rdquo; p&otilde;hjendas Affleck terviseprobleeme m&ouml;&ouml;dunud kevadel . </s> <s> &ldquo; Joomine ajas asjad veel hullemaks . </s> <s> See juhtis mu t&auml;helepanu k&otilde;rvale . &rdquo; </s> </p>
+<p> <s> Lopezist , kes ei joo ega suitseta , peaks Affleckile , kes pole samuti ligi aasta alkoholi puutunud , pahedest v&otilde;&otilde;rdumisel abi olema k&uuml;ll . </s> <s> Kuid mis edasi saab ? </s> <s> &ldquo; Ma ei imestaks , kui nad j&auml;rgmisena pulmakutsed v&auml;lja saadaks , &rdquo; pakub &uuml;ks Lopezit tundev inimene . </s> </p>
+ </div3> </div2> </div1> <div1 type='rubriik'> <head> Juhtkiri </head> <div2 type='artikkel'> <head> </head> 
+<p> <bibl> <author> <s> Peatoimetaja </s> </author> </bibl> </p>
+<p> <s> Kroonika igan&auml;dalane lugeja on kindlasti juba m&auml;rganud , kuidas valimiste l&auml;henemine on toonud ka meie ajakirja veergudele rohkem poliitikaga seotud inimesi , nende p&auml;ris- ja maakodusid , juubeleid ning muid ettev&otilde;tmisi . </s> </p>
+<p> <s> Meie p&otilde;him&otilde;te poliitikute tegemiste kajastamisel on , et k&otilde;igile peab pinda jaguma v&otilde;rdselt . </s> <s> Kui &uuml;hel n&auml;dalal laiutab pika ja v&auml;rvilise looga keskerakondlane , siis j&auml;rgmises numbris saagu iseennast , oma elustiili ja maist vara n&auml;idata reformikas v&otilde;i isamaaliitlane . </s> <s> Kroonika ei eelista kedagi , vaid annab k&otilde;igile v&otilde;imaluse s&otilde;na v&otilde;tta ja v&auml;lja paista . </s> </p>
+<p> <s> Alati ei l&auml;he aga nii , nagu oleme plaaninud . </s> <s> Nii lausus n&auml;iteks ekspeaminister Mart Laari n&otilde;unik Sirje Kiin ajakirjaniku intervjuusoovi peale s&otilde;naselgelt , et &ldquo; h&auml;rra Laar ei tunne ennast enam avaliku elu tegelasena &rdquo; . </s> <s> Reformikate pressiabi k&auml;is toimetusele v&auml;lja hulga oma parteiladvikusse kuuluvaid nimesid , kes aga intervjuust isegi enne valimisi midagi kuuldagi ei taha . </s> </p>
+<p> <s> L&auml;inud n&auml;dalal avalikustunud valimisnimekirjades figureerib palju Kroonika lehek&uuml;lgedelt tuttavaid tegelasi - lauljaid , n&auml;itlejaid , sportlasi , elukunstnikke . </s> <s> Miks nad kandideerivad ? </s> <s> Mis on nende eesm&auml;rk ? </s> <s> P&uuml;&uuml;dsime seda neilt endilt k&uuml;sida . </s> <s> Vastuseid saab lugeda lk 8. </s> </p>
+ </div2> </div1> </div0> </body> </text> </tei.2> 
